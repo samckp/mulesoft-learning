@@ -1,0 +1,327 @@
+1) What is MuleSoft?
+
+MuleSoft is an integration platform for connecting enterprise and SaaS applications in the cloud and on-premise.
+
+2) List types of variables in MuleSoft
+
+Types of variables in MuleSoft are:
+
+Flow Variable: It is used to either set or removes variables tied to a particular message in the current flow.
+Record Variable: It is used for batch processing flows.
+Session Variable: This variable is used to either set or remove variables tied to a particular message for the complete lifecycle.
+
+3) What are the various types of messages in MuleSoft?
+Various types of messages in MuleSoft are: 1) echo and log message, 2) bridge message, and 3) build message.
+
+4) Explain Mule ESB
+
+Mule ESB is an architecture developed for programmers. They can integrate a range of applications together using the bus-like infrastructure. Mule ESB can be integrated with HTTP, web service, JMS, etc.
+
+5) What is fan-in?
+
+Fan-in helps in taking a decision to continue flow execution. It be used in combination with fan out.
+
+6) What is a fan-out?
+
+Fan out is primitive that can be used to input messages through the output terminal once or more than one time. It can also be used as a combination of both fan-out and fan-in.
+
+7) Mention the features of Mule ESB
+
+The features of Mule ESB are:
+
+Offer SLA (Service Level Agreement) monitoring and API management facility.
+It has easy to use and drag and drop graphical design.
+Mule ESB provides high scalability.
+It enables developers to deploy in one click cloud or on-premise deployments.
+8) Mention the basic principles of ESB Integration
+
+The basic principles of ESB integration are:
+
+Transportation: It negotiates between different formats like JDBC, HTTP, JMS, etc.
+Transformation: It deals with the transportation of data between data formats needed by the ESP connector.
+Non-functional consistency: It is the way of how monitoring and security policies are applied and should be consistent.
+Mediation: It involves offering different interfaces to:
+Enables different channels to the same component implementation.
+Support various service versions for backward compatibility.
+9) What is Mule Expression Language?
+
+MEL or Mule Expression Language is a light-weight mule specific language that can be used to access and evaluate data in the payload.
+
+10) List various types of endpoints in Mule ESB
+
+Various types of Endpoints in Mule are 1) JMS, 2) HTTP, 3) SMTP, 4) IMAP, and 5) AJAX.
+
+11) What is the full form of SDO?
+
+The full form of SDO is a Service Data Object.
+
+12) Mention different types of Exception Handling
+
+Different types of exception handlings are:
+
+Rollback exception handling.
+Default exception handling.
+Catch exception handling.
+Global exception handling.
+Choice exception handling.
+13) What are the advantages of using ESB?
+
+The advantages of using ESB are:
+
+It offers a high level of the operational controlling facility from the portal that is based on the web.
+ESB provides numerous connectivity options using SaaS-based applications.
+It provides API and analytics management.
+ESB is equipped with numerous bug fixing and automated testing facilities.
+EDI (Electronic Data Interchange)/B2B (business to business) integration.
+Batch integration feature using real-time integration methods.
+14) What is a transient context?
+
+Transient context is used to pass the values within the existing flow, either requesting flow or the responding flow.
+
+15) What is Mule Transformer?
+
+Mule transformer is an event instance that refers to a library, org.mule.api.MuleEvent. This object carries the message with the event. The main aim of the Mule transformer is to create a chain of transformers.
+
+16) What is API?
+
+API is the acronym for Application Programming Interface. It is a software interface that allows two applications to interact with each other without any user intervention.
+
+APIs provides product or service to communicate with other products and services without having to know how they're implemented.
+
+17) What are the features of API?
+
+Here are some essential features of API:
+
+Efficiency
+Wider reach
+Customizable
+Personalization
+Data ownership
+Easy integration with GUI
+Time effective
+Language-independent
+18) What is the payload in MuleSoft?
+
+The payload is a mule runtime variable that stores objects or arrays. It helps developers to access payload under different forms.
+
+19) What are the various parts of composing a message in Mule?
+
+Different parts of composing a message in Mule are:
+
+Properties: it contains the header or meta-information or header similar to the SOAP (Simple Object Access Protocol) message.
+Payload: It is the main data context carried by a particular message.
+Multiple name attachments: It provides support for multiple messages or payload that occurs during event processing.
+20) Mention flow processing strategies in MuleSoft.
+
+MuleSoft has six types of strategy for flow processing:
+
+A queued asynchronous flow processing
+Custom flow processing
+Tread per processing
+Queued flow processing
+Non-blocking flow processing
+Synchronous flow processing
+Asynchronous flow processing
+21) Explain the concept of Correlation Context.
+
+It is a primitive that is used to pass values from request flow to response flow.
+
+22) Mention different types of primitives used in Mediation
+
+Different types of primitives used in Mediation are:
+
+Endpoint lookup
+Data handler
+Message element setter
+DB lookup
+Service Invoke
+Type filter
+Stop
+Sub Flow
+Custom mediation fan-out
+Fan-in
+Even emitter
+Header setters
+Message logger
+XSLT
+BO MapMessage filter
+Fail
+23) Name different types of ESPs used in the market
+
+Different types of ESPs used in the market are:
+
+Mule ESB
+JBoss fuse ESB
+Talend
+24) Define the model layer in mule
+
+The model layer is the first logical layer. It represents the runtime environment that hosts services. This layer describes the behaviour of Mule when processing requests that are handled by services. It offers services with default values to simplify configuration.
+
+25) Explain connector in MuleSoft
+
+A connector in Mule controls how a particular protocol used. It can be configured with parameters which are specific to that protocol. The connector holds any state context which can be shared with any entity in charge of actual communications.
+
+26) What is Endpoint in Mule?
+
+
+An endpoint in MuleSoft indicates a particular usage of a protocol. It is for polling, reading from, or writing to a destination.
+
+Therefore, it controls what underlying entities would be used with a dependent connector.
+
+27) Define component in Mule
+
+Components perform an important role in MuleSoft services. Every service is organized with core components and core and inbound and outbound routers.
+
+They are used to implement behavior in service. It can be very simple, like logging messages or invoking other services.
+
+28) What is the use of Outbound Endpoint in MuleSoft?
+
+Outbound Endpoint in MuleSoft is used to perform the following things:
+
+Send SOAP messages
+Write to file streams
+Send email messages
+29) Define configuration builders In MuleSoft
+
+MuleSoft is a configuration builder to translate a configuration file into the graph of the object that makes the running node of ESB.
+
+30) List the types of configuration builders in MuleSoft
+
+Types of configuration builders In MuleSoft are 1) Spring-driven builder and 2) script builder.
+
+31) What Is TSD in Mule?
+
+TSD or transport service descriptor is a connector used for technical configuration. It defines classes name used for message receivers, dispatchers, and requesters. This default value can vary to grasp the behaviour of transport.
+
+32) Define multicasting router in MuleSoft
+
+Multicasting router in MuleSoft sends messages to more than one endpoints over different transports. It allows the user to move the same messages across different endpoints.
+
+33) What are the characteristics of Global Endpoint?
+
+Characteristics of global endpoint are:
+
+The global endpoint is not typified or outbound routing.
+It can be usable in different places of configuration files.
+The global service name must be applied so that it can reference the endpoint.
+It helps to clarify the usage of a particular destination.
+34) Explain VM transport in MuleSoft
+
+The VM (Virtual Machine) transport is a special type of transport that can be used to send a message via memory. These messages never leave the Java Virtual Machine, and the Mule instance is running in.
+
+35) Name different types of web services
+
+Different types of web services: 1) RESTful web services and 2) SOAP web services.
+
+36) What are Web Services?
+
+Web services are a standardized way or medium to propagate communication between the client and server applications on the World Wide Web.
+
+37) What is Restful Web Service?
+
+Restful Web Service is a light-weight, maintainable, and scalable service that is built on the REST architecture. Restful Web Service, expose API from your application in a secure, uniform, stateless manner to the calling client. The calling client can perform predefined operations using the Restful service.
+
+39) What is RAML?
+
+The full form of RAML is the RESTful API Modeling Language. It is a YAML-based language that describes RESTful APIs.
+
+RAML is best for the information needed to describe RESTful APIs. It is similar to WSDL (Web Services Description Language).
+
+RAML contains request/response schema, URI parameter, endpoint URL, HTTP methods, and query.
+
+40) What is caching?
+
+The cache concept is a way of storing the copy of the file in the cache, or any temporary storage location to access it quickly.
+
+41) What are the Models?
+
+Model is a grouping of services that are created in MuleSoft studio. User has the liberty to start and stop all the services inside a particular model.
+
+42) Name supported languages by MuleSoft
+
+Supported languages of MuleSoft are 1) Ruby, 2) Python, 3) Groovy, and 4) JavaScript.
+
+43) List various the categories of Mule Processors
+
+Categories of Mule Processors are: 1) Components, 2) Exception strategies, 3) Business events, 4) Routers, 5) Connectors, and 6) Transformers.
+
+44) What are the configuration patterns provided by MuleSoft?
+
+Configuration patterns provided by of MuleSoft are:
+
+Bridge
+Validator
+WS proxy
+Simple service pattern
+HTTP proxy
+45) What are the advantages of the logger component?
+
+The advantages of the logger component are:
+
+Users can add this core component anywhere in the workflow.
+It can be configured to any combination of strings and expressions.
+46) What is scheduler Endpoint?
+
+Scheduler Endpoint is a MuleSoft component or middleware are working on time-based conditions. It allows the user to trigger whenever this condition is met.
+
+47) Explain the parameters to configure a scheduler
+
+Parameters related to configuring a scheduler are:
+
+Frequency: It is a frequency used by Scheduler to triggers flows.
+Start Delay: It is the time to wait before triggering any flow.
+Time Unit: The time unit for frequency and Start Delay.
+48) What is Choice Router?
+
+Choice Router dynamically routes messages using a flow. It is based on a set of DataWeave expressions to evaluate the message content.
+
+49) What is a Scatter-Gather Router?
+
+Scatter-Gather Router is the most used routing event processor. It can send a request message to more than one target concurrently. This router then collects responses from all routes and aggregate back into one response.
+
+50) What are error types in MuleSoft?
+
+Following are the effort types:
+
+Transformation
+Expression
+Routing
+Duplicate_Message
+Source_Response
+Timeout
+Security
+Connectivity
+Validation
+51) What are the features of MUnit?
+
+The features of MUnit are:
+
+In MUnit framework, a developer can create a Mule test by using Java code as well as Mule code.
+The programmer can design and test Mule APIs and apps, either in XML or graphically within Anypoint studio or platform.
+MUnit allows integrating the testing into the current CI/CD process.
+MUnit offers auto-generated tests and coverage reports to reduce manual work.
+Developers can also use local FTP/DB/mail servers to make the testing process more portable through the Continous Integration.
+It allows enabling/disable tests.
+Programmers can extend the MUnit framework using plugins.
+Features to verify message processor calls.
+It provides error reports with a Mule stack trace.
+52) What is Exchange?
+
+Exchange is a hub for the development team. It is used to store and access API, connectors, templates, documentation, and more.
+
+53) What are the advantages of SOAP?
+
+The advantages of SOAP are:
+
+SOAP is the perfect medium that is developed for web service to talk with client applications.
+SOAP is a light-weight protocol which can be used for data interchange between applications.
+SOAP protocol can work any programming language based applications on Windows and Linux platforms.
+It does not require customization to run the web services built on the SOAP protocol to work on the WWW.
+54) Define Batch Jobs in Mule ESB
+
+A batch job is an element in Mule that split large size messages into records that process asynchronously in a batch job.
+
+55) Explain the Mule data integrator.
+
+A mule data integrator is a tool that is used for mapping data by visualizing it. It offers drag and drop feature to make a developer's coding process easier.
+
