@@ -1,0 +1,468 @@
+Q1. What is MuleSoft?
+Ans. MuleSoft is a solution based cluster that integrates Data, Applications, and APIs on-premises and over the cloud platform.
+
+MuleSoft works on the AnyPoint Connectivity Model which helps in connecting any existing SaaS-based applications or set of APIs through one single API interface.
+
+The architecture is service-oriented which gives the flexibility to access all the required applications through this integration.
+
+MuleSoft owns the Programmable Web portal that is widely used by application developers to help them build web, mobile, and other user applications.
+
+So Mule is the most popularly used application integration and communication platform for business needs.
+
+Q2. What is Mule ESB?
+Ans. ESB stands for enterprise service bus, Mule is a runtime engine of the Java-based ESB integration platform. It allows the development teams to connect and access flexibly and easily exchange data.
+
+It helps to enable easy integrations between application platforms without creating fuzz about different technologies being used by the applications (such as HTTP, SaaS, Payment Gateways, Web services, JMS).
+
+EBS can be implemented and deployed anywhere in the application network. It triggers events in real-time or in the batch system providing global connectivity.
+
+Q3. Why Mule ESB is so popular?
+Ans. Mule Soft is a lightweight technology that supports a high level of scalability, which means it allows you to start small and scale as per your requirement. You can connect N number of application within a single environment which has zero restriction for Apps communication.
+
+Mule Sot manages N number of application interactions with each other without restricting that application into the same VM interaction or other VM interaction.
+
+It means even though the application is running into different VMs, they can interact with each other.  Its flexibility with transportation protocol enables the interactions easily. 
+
+If you want to enrich your career and become a professional in MuleSoft, then visit Mindmajix - a global online training platform: "MuleSoft Certification Training" This course will help you to achieve excellence in this domain. 
+
+Though there are many ESBs are available in the market, Mule Soft gives you the most flexible and reliable services.
+
+Another EBs comes with the restriction of limited functionalities or access to an existing application server or a specific messaging server, they put restrictions for the use of a specific vendor.
+
+Whereas, Mule Soft comes with a high level of accessibility and adaptability with vendor-neutral methods. You can easily plug and play any application through any vendor.
+
+Q4. What are the Features of Mule ESB?
+Ans. An ESB is used for integration using a service-oriented approach. Its main features are:
+
+Set of Service Container
+Message Transformation Service
+Message Routing Service
+Web Service Security 
+Q5. What are different types of Primitives used in Mediation?
+Ans. These are the different types of primitives in mediation:
+
+Message Filter
+Type Filter
+Endpoint Lookup
+Service Invoke
+Fan-out
+Fan-in
+XSLT
+BO Map
+Message Element Setter
+DB lookup
+Data Handler
+Custom Mediation
+Header Setters
+Message Logger
+Even Emitter
+Stop
+Fail
+Sub Flow
+Q6. What are various types of Exception Handling?
+Ans. 
+
+Choice Exception Handling.
+Catch Exception Handling.
+Rollback Exception Handling.
+Global Exception Handling.
+Default Exception Handling.
+Q7. What is Shared Resource in Mule and how they have been used?
+Ans. We can make connectors a reusable component by defining them as common resources and expose them to all applications deployed under the same domain, these resources are known as shared resources.
+
+These shared resource needs to be defined inside Mule Domain Project and then referred to each of the projects that are meant to use the elements in it.
+
+Q8. What are the different ESBs in the market?
+Ans. There are various ESB's available in the market. Some are opensource, some licensed:
+Talend
+Mule ESB
+JBoss Fuse ESB
+Q9. Various types of variables in mule?
+Ans:
+
+Record Variable.
+Flow Variable.
+Session Variable.
+Q10. What is the definition of Web Services?
+Ans. Web service is a function or program in any language that can be accessed over HTTP. Message format can be XML or JSON or any other program as long as the other programs can understand and communicate.
+
+Any web service has a server-client relationship. Web services can be synchronous or asynchronous. Any web service can have multiple clients.
+
+[Related blog: Dell Boomi Vs MuleSoft]
+
+Q11. How to find when the project needs ESB?
+Ans. ESB implementation is not suitable for all projects. Proper analysis should be done if the use of ESB will really benefit the project.
+
+Some of the points to be considered while analyzing the need of ESB are as follows:
+
+If the project requires integrating 3 or more applications/services. If the need is to communicate between two applications, using point-to-point integration would suffice.
+If the project would need to be scaled in the future where it might be needed to interact with more services in the future. Not all projects need this as they may perform not that big a task.
+If the project needs message routing capabilities such as forking and aggregating message flows. Such features are not required by all projects.
+Is the architecture of what is to be achieved clear. It's much better to do simple POCs integrating small parts to evaluate the benefits.
+Most ESBs are a costly affair. Does the project budget allow the use of ESB.
+Q12. What are the different types of Flow Processing Strategies?
+Ans. There are six different types of Flow Processing Strategies. They are
+
+Asynchronous Flow Processing Strategy.
+Custom Processing Strategy.
+Thread Per Processing Strategy.
+Queued Asynchronous Flow Processing Strategy.
+Synchronous Flow Processing Strategy.
+Non-blocking Flow Processing Strategy.
+Queued Flow Processing Strategy.
+Checkout MuleSoft Blogs
+
+Q13. How to create and consume SOAP service in Mule?
+Ans.
+
+Creating SOAP Service – We can create a SOAP service the same as we create Mule Project With RAML, the only change is instead of RAML we need to import Concert WSDL.
+
+Consuming SOAP Service – We can use Web Service Consumer or CXF component in our mule flow to access/consume SOAP service.
+
+Q14. Explain ESB Integration core principles?
+Ans.
+
+Subscribe to our youtube channel to get new updates..!
+
+Transformation - Data transformation between canonical data formats and specific data formats required by each ESB connector. Transport protocol negotiation between multiple formats. Such as HTTP, JMS, JDBC.
+
+Mediation - Providing multiple interfaces for the purpose of
+
+a) supporting multiple versions of a service for backward compatibility or alternatively,
+
+b) allowing for multiple channels to the same underlying component implementation. This second requirement may involve providing multiple interfaces to the same component, one legacy interface (flat file), and one standards-compliant (SOAP/XML) interface.
+
+Non-functional consistency - For a typical ESB initiative, this can include consistency around the way security and monitoring policies are applied and implemented.
+
+Mule ESB Interview Questions For Experienced:
+Q15. How to select an ESB?
+Ans.
+
+Usability: How complicated is the installation process? The learning curve of the ESB should not belong.
+
+Maintainability: How to monitor the product? If any GUI terminal is available for monitoring the services.
+
+Community: Is there an active community for the ESB. Various discussion forums, tutorials, etc. Enterprise Support- Is the product support reliable. What services are available.
+
+Flexibility: Can the ESB be configured to meet the business requirements.
+
+Reliability: The reliability of the ESB. Its current users and various case studies if available.
+
+Cost: The cost of the ESB. Its Licence policies. Support costs. etc.
+
+Q16. What does the statement “Any Point Platform” means to Mule Soft?
+Ans. MuleSoft is a secure, robust, and highly scalable communication network that allows the application to do self-services, it helps organizations to integrate applications, data, and multiple devices in a flexible environment.
+
+It is a hybrid application integration platform that includes ESB, unified solutions for APIs management, iPaaS, application design, and publishing. 
+
+MuleSoft allows using N number of software and tools which includes the below list 
+
+API Designer- Any Time Design Center
+Any Point Studio- Any Point Design Center 
+API Manager-Any Point Management Center
+API Analytics-Any Point Management Center 
+API Portal-Any Time Exchange 
+MCQs- Runtime Services 
+Mule ESB-Mule Runtime Engine 
+Any point Connectors 
+CloudHub- Hybrid Cloud 
+Mule Enterprise Management 
+Q17. What are the advantages of using an ESB?
+Ans. 
+
+High level of operational control from the central web-based portal. 
+Wide range of connectivity through more than 120 leading SaaS-based applications on-premises.
+Ensuring zero message loss reliability and gives you high availability. 
+Custom code out of data mapping with graphical integration and transformation 
+Analytics and API Management 
+Equipped with thousands of automated tests and bug fixing techniques.
+EDI/B2B Integration 
+Batch Integration with Real-Time Integration techniques 
+Premium connectors for HL7, Oracle, Epic, and SAP. 
+Q18. What is Transient Context?
+Ans. Transient Context is used to pass the required values within the existing flow either the requesting flow or the responding flow. The transient flow could not make it link requests or responses together, so it is not used across.
+
+It is not being used if you want to save an input message before service gets invoked into the request or response flow. 
+
+Transient is made to act as temporary storage of messages in general after the service invokes a call, the next primitive creates another message by combining the two, first the invoked response and second the original message that is stored in the Transient Context.  
+
+Q19. What are the different types of messages in MuleSoft?
+Ans.
+
+Echo and Log message- log messages and move them from inbound to outbound routers.
+
+Bridge Message – Basically, a passed message from inbound to outbound routers.  
+
+Build Message- Messages that are created from fixed or dynamic values.  
+
+Q20. What is API? Define the most prominent features of API.
+Ans. API (Application Programming Interface) is a software interface that allows two different applications to interact in one platform. 
+
+API has N number of benefits in terms of user’s usability 
+APIs have become modern and advanced within time, it adheres to many standards such as HTTP and REST. 
+APIs are developer-friendly, easy to understand, and broadly acceptable.
+APIs are mostly used as a product rather than a set of codes. They are specifically designed for a particular group of audiences such as application developers, and Mobile App developers.
+Every API comes with detailed documentation with version-specific information and up-gradation details. 
+APIs are highly secure application interfaces that allow you to operate within a robust environment. 
+APIs as similar to any software product have their own SDLC (software development lifecycle).
+Q21. What is REST?
+Ans. REST stands for Representational State Transfer or RESTful web service. REST is a client-server architecture which means each unique URL is a representation of some object or resource.
+
+Any REST API developed uses HTTP methods explicitly and in a way that’s consistent with the protocol definition.
+
+This basic REST design principle establishes a one-to-one mapping between create, read, update, and delete (CRUD) operations and HTTP methods. According to this mapping:
+
+To create a resource on the server, use POST.
+To retrieve a resource, use GET.
+To change the state of a resource or to update it, use PUT.
+To remove or delete a resource, use DELETE.
+Q22. What is RAML and why we use it?
+Ans. RAML – RESTful API Modeling Language
+
+RAML is similar to WSDL, it contains endpoint URL, request/response schema, HTTP methods, and query and URI parameter.
+RAML helps the client (a consumer of the service) know, what the service is and what/how all operations can be invoked.
+RAML helps the developer in creating the initial structure of this API. RAML can also be used for documentation purposes.
+Q23. What are the Message Sources in Mule ESB?
+Ans. Message sources in Mule are usually Anypoint Connectors, elements that provide connectivity to a specific external source, either via a standard protocol (such as HTTP, FTP, SMTP) or a third-party API (such as Salesforce.com, Twitter, or MongoDB).
+
+Q24. What is the difference between ESB and JMS?
+MuleSoft Certification Training!
+Explore Curriculum
+Ans.
+
+ESB provides the middleware and interfaces that allow businesses to connect their applications without writing code.
+JMS provides the messaging capability and facilitates communication between the modules/applications.
+Q25. Why Mulesoft is preferred over other ESB implementations?
+Ans. Mule is lightweight but highly scalable, allowing you to start small and connect more applications over time.
+
+The ESB manages all the interactions between applications and components transparently, regardless of whether they exist in the same virtual machine or over the Internet, and regardless of the underlying transport protocol used.
+
+Several commercial ESB implementation provides limited functionality or built on top of an existing application server or messaging server, locking you into that specific vendor.
+
+Mule is vendor-neutral, so different vendor implementations can plug into it. You are never locked in to a specific vendor when you use Mule.
+
+Q26. Define Payload In MuleSoft?
+Ans. The payload is a Mule Runtime Variable that stores arrays or objects. It is wrapped under org. mule.api.MuleMessage helps you get the different means of accessing the payload under different forms.
+
+Mule messages are similar to any other SOAP message JMS message it also containers properties, headers, and multiple names attached to it. The main content of the message is called Payload. 
+
+Q27. Explain the concept of endpoint?
+Ans. An endpoint is a destination shared by many other routers in the group. It also helps to create a global endpoint. A global endpoint is not similar to inbound and outbound routing service, but it makes it useful in many different places in the configuration file.
+
+The entire endpoint destination must be named to be specified during the services. These names identify the global endpoint in the group of routers. The global endpoint also offers to clarify the usage of a specific destination. 
+
+Q28. Explain Mule Transformer?
+Ans. Mule transfer is an event instance that belongs to org.mule.api.MuleEvent library. This object carries the actual context of the message with the context of the event.
+
+The main purpose of the transformer is to translate the message from one form to another. It is also possible to create a chain of transformers. It transits the message from one medium to another while staging into different services. 
+
+Q29. What is the Transport Service Descriptor in Mule?
+Ans. The transport service description is a technical configuration of the connector. This is a hidden configuration that is used in each instance of the connector.
+
+It gives definitions to the parameters such as the use of particular parameters, what classes are required for that particular message receiver, dispatchers, and requesters.
+
+The definition is about default transformation to use inbound or outbound and utilizing the response of the router. 
+
+Q30. What is a Router is MuleSoft?
+Ans. The router is one of the most critical services of MuleSoft. The Router finalizes and assigns the running territory for the messages to move from one service to another.
+
+Basically, routing is a process of controlling the transitory decided by the router for the moving message to transit from one source to another. It can be also called a gatekeeper of the endpoint services.
+
+It keeps tracks of targeted successions to ensure the message gets to deliver to the right intended destination. Routers can also act as a bundle of classified tasks, such as it can split, sort, group or regroup, messages based on specified conditions or certain mappings. 
+
+Q31. Define the use of Filter in Mule.
+Ans. Filters are the most powerful capability given to the routers to make smart decisions on the message delivery or request and response environment.
+
+It also gives sight to the router to decide what to do with the messages in the transit stage. Some filters go through intense analysis of the message to find out the actual value for the desired outputs.  
+
+Q32. Define SDO and SMO.
+Ans.
+
+SDO stands for service data objects that are the representation of variables and objects. 
+SMO stands for Service Model Object and it is a pattern for using SDO for messages.
+Q33. Define the purpose of Endpoint in Mule.
+Ans. Endpoint defines the specific usage of the transport protocol. Either you are reading the message, writing it, listening, or polling to a targeted destination the endpoint directs the usability of the protocol.
+
+Endpoint controls the underlined entity which ensures the usability of the connectors. The targeted destination is defined as URI. It depends on the connectors that whether the destination will be treated as URI or URL or JMS destination itself. 
+
+Q34. What is the difference between service invoke and Callout?
+Ans.
+
+Service Invoke:
+
+Service invoke is an initial process of creating a service for either request or response flow. The service can be request, response, or both and One-way implementation.
+
+Multiple instances of a service can be created and permitted into a flow, that allows a series of services to operate within the flow.  
+
+CallOut:
+
+The purpose of the CallOut method is to receive messages and request the required service and operation in a flow. There is a CallOut node always presented into the median flow for connected target operation.
+
+If the call attempt is successful the callout node in the responses flows median will start receiving the message.
+If the call attempt is unsuccessful the callout node will be set to retry service in the flow depending on the type of fault that occurred. 
+Q35. What is Mule Context?
+Ans. In general, the message context defines the overall purpose of the message but here the context defines the temporary area which is created along with the SMO(server message object) in the median flow while the transition of the message.
+
+SMO contains the shared context in the message flow. This shared context usually gets used at the time of aggregation, which means if you are aggregating and need to iterate the BO for the specified time.
+
+Aggregative context maintains data between FanOut and FanIn primitives. The data(context) present in the request flow cannot be persistent the throughout request and responses flow because it only belongs to request BO.  
+
+Q36. How the messages in Mule are composed?
+Ans. The four different part of the composed message in Mule
+
+Payload - is the main data context carried by a particular message
+Properties - it contains the Meta information or header similar to the SOAP message.
+And Optionally 
+Multiple Name Attachments - To provide support for multipart messages. Or an exceptional payload for holding errors that occur during the event processing. 
+Q37. How to judge the need for ESB in a project?
+Ans. Project application needs need to be analyzing very carefully to avoid unnecessary arrangements. ESB benefits in several ways for projects which need to operate in a huge setup of multifunctional application support. 
+
+Q38. The analysis depends on many factors such as.
+Ans:
+
+If the project requires a group of actions with additional applications and servers where the interaction is happing between two or more complex resources.
+If the project needs a broad scale up in the future and requires multiple application communication over a single setup.
+If the project requires to route the messages between one end to such as forking and aggregation of the routed messages.
+If the project allows this huge investment in need of application support. 
+Q39. Define Fileage properties in file connector in MuleSoft?
+Ans. Fileage defines the waiting duration of the endpoint before starting to read the file again. Such as file age 60000 indicates that the endpoint should wait about 1 minute before starting the next processing.  
+
+Q40. What is the streaming property in the file connector in MuleSoft?
+Ans. Streaming properties in connectors represent the values in true and false format. If the streaming value is true, it means you are working on streaming data on the connector otherwise if it’s false you are working on the file system. 
+
+Q41. What is the polling frequency in the file connector in MuleSoft?
+Ans. If you want a new file inbound endpoints to poll direction to read the new content then you require to set the polling frequency to a few milliseconds value to achieve this. Here polling frequency defines the value of the poll.
+
+Q42. Explain the Configuration builder is MuleSoft?
+Ans. Configuration builder in Mule helps to transfer the human authorized configuration file into a complex graph of objects that substitute a running node in ESB. Configuration builder can be defined into two types:
+
+Spring Driven Builder: it works with XML files 
+Script Builder: it accepts scripting language files. 
+Q43. Explain the concept of the Auto-Delete feature in the file connector.
+Ans. The auto-delete value of this feature is zero by default which means its inbound endpoint will automatically delete the file from the source directory.
+
+In case the source directory file does not require to be auto-deleted then you need to set the value to false. 
+
+Q44. Difference between ESB and JMS 
+Ans.
+
+ESB solves the business problem by providing middleware support for application integration and communication issues without writing code.
+JMS help you get equipped with messaging capability and solve the communication issues between module and instances. 
+Q45. Explain the working functionality of the service layer. 
+Ans. Mule service is a set of all Mule entity which requires to support the processing request in an arranged manner. This service is defined by a particular configuration that defines the different elements from a different layer of services.
+
+It mobilizes the request which is open to receive a particular request. It depends on the service layer's input channels whether a service can or cannot be accessible outside in public ESB. 
+
+Q46. List of flow processing strategies in MuleSoft.
+Ans. It represents six types of strategy for Flow Processing 
+
+Asynchronous Flow Processing
+Custom Flow Processing 
+Tread Per Processing 
+Queued Asynchronous Flow Processing 
+Synchronous Flow Processing 
+Non-blocking Flow Processing 
+Queued Flow Processing 
+Q47. Define the available resources used for modularizing configuration in mule?
+Ans. There are many resources available for modularizing configuration in Mule as:
+
+Independent Configuration
+
+A Mule instance is capable of loading multiple independent configuration files one after another.
+
+Inherited Configuration
+
+As the term inheritance referred to represent the parent and child relationships between the instances this configuration also showcases the parent-child relationship between two configurations.
+
+It strongly provides this dependency with the guarantee that no configuration file will be omitted at the time of application booting. It used the same name for the parent and child models. 
+
+For ex: 
+
+1
+<model name=”myConfig”><model name=”myConfig” inherit=”true”>
+Imported Configuration 
+
+It supports spring configuration so that you can easily use your spring config file to Mule configuration files. 
+
+For ex: you need to extend instance.xml then it will import the spring context file: 
+
+1
+<spring:beans>,<spring:import resources=”instance-beans.xml”/></spring:beans>
+Heterogeneous configuration  
+
+As the term, heterogeneous refers you can configure many types of files using this configuration method. The instances can be created using the Groovy script method and Spring XML Configuration builders.
+
+Q48. Transport layer functionality in MuleSoft.
+Ans. The main operating task for the transport layer is to sending and receiving messages through the inbound and outbound communication network. The transport layer gets configured with connectors, endpoints, and transformers. 
+
+Transport is also responsible for message adaptor where the responsibility of the adaptor is to extract all the information from the particular request such as data, Meta information or header info, and attachments. It also stores the information available in it.
+
+Q49. Explain the functionality of FanIn and FanOut
+Ans.
+
+Fan-Out: you can use Fan-Out primitive to trigger the output terminal initially with the input message or many times as per need. Fan-Out can be used individually or as a combination of Fan-In and Fan-Out. 
+
+Fan-In: FanIn in a combination with Fan-Out works as a decision point to identify when to continue flow execution in the connector.
+
+It accepts n number of messages until the decision point is made. The last message received in the flow is represented as an output terminal. 
+
+Q50. What configuration is required for JDBC Adaptor implementation?
+Ans. JDBC adaptor configuration is not a complex task for those who have experience in connecting DB. You need a data source to be connected and configured with a database.
+
+Also if your DB is having secure access then you need to create a security authentication program.  
+
+Q51. Name the technique of implementing a loop in mediation?
+Ans. Fan-In and FanOut is the method to implement a loop in the mediation.
+
+Q52. Explain the concept of Correlation Context.
+Ans. When the mediation primitive requires passing the value from the request flow to response flow the correlation context plays the role. 
+
+Q53. List out the primitives used in Mediation.
+Ans. Mediation has many primitive as below 
+
+Type Filter
+Message Filter 
+Service Invoke
+Fan-out
+Fan-in
+XSLT
+BO Map
+Header Setters
+Message Logger
+Even Emitter
+Endpoint Lookup
+Message Element Setter
+DB lookup
+Data Handler
+Custom Mediation
+Stop
+Fail
+Sub Flow
+Q54. Define Mule UMO
+Ans. UMO is Universal Message Object; UMO components are also referred to as service components. 
+
+Q55. Explain Mule Data Integrator.
+Ans. Data Integrator tool is launched by Mule that is a data visualization mapping tool having support for flat files, XML Mapping, and Java objects.
+
+It was a tedious task for the developer to code complex mapping functionalities so the Mule Data Integrator tool provides drag and drop features to make the coding process easier. 
+
+The mapping process gets support from eclipse (where plug-in has to be done before process) to run the Data Integrator which is part of top layer applications in Mule Architecture. 
+
+Q56. Find out the path for class Abstract Mule TestCase?
+Ans. The path for Abstract Mule TestCase is  /lib/mule/mule-core-.jar
+
+Q57. Advantages of Mulesoft
+Ans. There are many advantages of the MuleSoft integration platform
+
+Very lightweight but highly scalable. 
+It allows you to connect over a large scale of applications so that you can expand large over time. 
+ESB ensures that the communication stays uninterrupted and consistent between the applications. 
+Despite using the same protocols for Virtual Machine it allows you to build and maintain communication between applications. 
+Ability to integrate and connect over a vast range of application network.
+POJO integration support to connect other components in the network.
+Reusability of Components 
+You can you existing components without writing MuleSoft specific codes.
+A wide variety of vendors can be plugged in as it is a vendor-neutral solution.
+Eliminates the vendor dependencies by reducing vendor restrictions.
+Can be deployed into n number or topologies despite sticking to one ESB as per your business need.
+The great adaptability of change for higher business support. 
